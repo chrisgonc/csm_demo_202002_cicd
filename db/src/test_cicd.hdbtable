@@ -1,5 +1,5 @@
-column table "db::test_cicd"
+column table "hdb::test_cicd"
 (
- "id" INTEGER    comment 'column id',
- "desc" NVARCHAR(20)    comment 'column description')
+ "id" INTEGER    comment 'id',
+ "desc" NVARCHAR(20)    comment 'description')
  comment 'Comment test'
