@@ -1,0 +1,5 @@
+column table "db::test_cicd"
+(
+ "id" INTEGER    comment 'column id',
+ "desc" NVARCHAR(20)    comment 'column description')
+ comment 'Comment test'
