@@ -1,6 +1,5 @@
 column table "hdb::new_table_pd"
 (
- "id" DECIMAL    comment 'id',
- "desc" NVARCHAR(50)    comment 'description',
- "new_column3" BIGINT   )
+ "id" INTEGER    comment 'id',
+ "desc" NVARCHAR(50)    comment 'description')
  comment 'New table generated using HDI by PD'
