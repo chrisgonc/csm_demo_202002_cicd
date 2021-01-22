@@ -57,7 +57,7 @@ resources:
    type: com.sap.xs.hdi-container
    parameters:
      config:
-       database_id: 9ee99a70-9d98-481d-ab94-00b0417b66c5
+       database_id: 4880dcd5-8bf1-430f-999a-1333672b8da1
        schema: CSM_DEMO_202002_CICD
      service: hana  # or 'hanatrial' on trial landscapes
      service-plan: hdi-shared
