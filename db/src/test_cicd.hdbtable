@@ -2,5 +2,5 @@ column table "hdb::test_cicd"
 (
  "id" INTEGER    comment 'id',
  "desc" NVARCHAR(30)    comment 'description',
- "col3_new" INTEGER   )
+ "col3_new" BIGINT   )
  comment 'Comment test'
