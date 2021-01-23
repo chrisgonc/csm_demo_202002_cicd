@@ -21,18 +21,16 @@
 
 ### General project setup
 general:
-
-  productiveBranch: 'main'
-
-# Stage configuration
-stages:
-  productionDeployment:
-    cfTargets:
-      - org: 'CF-ORG-CSM-E2E-DEMOS'
-        space: 'CSM-E2E-DEMOS-DWC-SPACE'
-        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-        appName: 'csm-demo-202002-cicd'
-        credentialsId: 'cf-credentialsid'
+steps:
+  mtaBuild:
+    buildTarget: 'CF'
+  cloudFoundryDeploy:
+    deployTool: 'mtaDeployPlugin'
+    deployType: 'standard'
+    cloudFoundry:
+      org: 'CF-ORG-CSM-E2E-DEMOS'
+      space: 'CSM-E2E-DEMOS-SPACE'
+      credentialsId: 'cf-credentialsid'
 
 ### Step-specific configuration
 #steps:
