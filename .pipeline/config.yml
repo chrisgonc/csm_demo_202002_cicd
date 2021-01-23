@@ -29,9 +29,9 @@ steps:
     deployType: 'standard'
     cloudFoundry:
       org: 'CF-ORG-CSM-E2E-DEMOS'
-      space: 'CSM-E2E-DEMOS-SPACE'
+      space: 'CSM-E2E-DEMOS-DWC-SPACE'
       credentialsId: 'cf-credentialsid'
-
+      
 ### Step-specific configuration
 #steps:
 #  mtaBuild:
